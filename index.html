@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Илья Хохлов, cv, resume, Ilya Khokhlov">
+    <meta name="description" content="Всем привет, я Илья Хохлов, и это мой сайт-резюме">
+    <title>Ilya Khokhlov</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/1.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body class="Montserrat container">        
+        <header class="header_container" id="home">
+                <a href="" class="nav_logo">
+                    <img src="img/logo.png" alt="">
+                </a>
+                <nav class="navbar">
+                    <ul class="nav_list">
+                        <li class="nav_item">
+                            <a href="#home" class="nav_link">Главная</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#aboutme" class="nav_link">Обо мне</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#projects" class="nav_link">Мои проекты</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#contacts" class="nav_link">Связаться со мной</a>
+                        </li>
+                    </ul>
+                </nav>
+        </header>
+        <section class="section_home">
+            <div class="container_section_home">
+                <p class="hi1">Привет, меня зовут</p>
+                <h1 class="hi2">Хохлов Илья</h1>
+                <br>
+                <a href="" class="typewrite" data-period="2000" data-type='[ "Я Junior front-end разработчик.", "Я люблю программировать на разных языках.", "Я люблю верстать сайты и дизайн.", "Я люблю кодить." ]'></a>
+            </div>
+        </section>
+        <div class="navbarvertical">
+            <a href="https://vk.com/"><img class="vertical_icon" src="img/vk.png" alt=""></a>
+            <a href="https://github.com/"><img class="vertical_icon" src="img/github.png" alt=""></a>
+            <a href="https://web.telegram.org/"><img class="vertical_icon" src="img/telegram.png" alt=""></a>
+            <a href="https://careers.linkedin.cn/"><img class="vertical_icon" src="img/linkedin.png" alt=""></a>
+            <div class="verticalline"></div>
+        </div>
+        <section class="section_about" id="aboutme">
+            <div class="container_section_about">
+                <h1 class="title_header">Обо мне</h1>
+                <div class="container_text">
+                    <p class="about-text">Привет, меня зовут Хохлов Илья, я начинающий front-end разработчик, строю свою карьеру на том, что мне действительно нравится. Я изучаю, как создавать веб-приложения с помошью HTML, CSS, JavaScript, React, MySQL, изучаю курсы веб разработки.</p>
+                    <p class="about-text2">Мне нравится, то чем я занимаюсь</p>
+                </div>
+            </div>
+        </section>
+        <section class="section_projects" id="projects">
+            <div class="container_section_projects">
+                <h1 class="title_header">Мои проекты</h1>
+            </div>
+        </section>
+        <section class="section_contacts" id="contacts">
+            <div class="container_section_contacts">
+                <h1 class="title_header_contacts">Связаться со мной</h1>
+                <div class="form-box">
+                    <form>
+                        <label for="uname">
+                            <i class="fa fa-solid fa-user"></i>
+                            Ваше имя:
+                        </label>
+                        <input type="text" id="uname" 
+                               name="uname" required>
+            
+                        <label for="email">
+                            <i class="fa fa-solid fa-envelope"></i>
+                            Ваш Email:
+                        </label>
+                        <input type="email" id="email" 
+                               name="email" required>
+
+                        <label for="msg">
+                            <i class="fa-solid fa-comments" 
+                               style="margin-right: 3px;"></i>
+                            Ваше сообщение:
+                        </label>
+                        <textarea id="msg" name="msg" 
+                                  rows="4" cols="10" required>
+                        </textarea>
+                        <button type="submit">
+                            Отправить
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="section_footer">
+            <div class="container_section_footer">
+                <p class="footer_text">Designed & Develop by Ilya Khokhlov ©2024</p>
+            </div>
+        </footer>
+</body>
+</html>
