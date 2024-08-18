@@ -2,4 +2,4 @@
 
 ## Результат вы можете помотреть тут
 
-[Моя работа](https://titecy.github.io/Web-resume/)
+[Моя первая работа](https://titecy.github.io/resume/)

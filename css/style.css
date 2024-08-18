@@ -141,7 +141,7 @@ body {
     padding-left: 200px;
 }
 .ava {
-    border: 2px solid #d10909;
+    border: 2px solid #d72323;
     border-radius: 100%;
     width: 40%;
     height: 40%;
@@ -202,7 +202,6 @@ body {
 }
 
 .title_header_contacts {
-    padding-bottom: 80px;
     font-family: "Rubik Bubbles", system-ui;
     font-weight: 200;
     font-style: normal;
@@ -284,4 +283,185 @@ button:hover {
     background-color: #d72323;
     border: none;
     transform: translateY(-5px);
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+@media (max-width: 1200px){
+    .navbarvertical {
+        margin-bottom: 2rem;
+        margin-left: 20px;
+        align-items: center;
+    }
+    .vertical_icon {
+        height: 1.5rem;
+    }
+    
+    .vertical_icon:last-child {
+        margin-bottom: 0.5rem;
+    }
+    .verticalline {
+        height: 2rem;
+        position: fixed;
+        
+    }
+    .container_text {
+        width: 50rem;
+    }
+    .ava_container {
+        padding-left: 50px;
+    }
+    .ava {
+        width: 50%;     
+        height: 50%;
+    }
+}
+
+@media (max-width: 992px) {
+    .project_block {
+        width: 250px;
+        height: 250px;
+    } 
+    .project_block:last-child {
+        margin: 10px;
+    }
+    .about-text {
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+    .about-text2 {
+        font-size: 1.5rem;
+        line-height: 1.5;
+        background-image: linear-gradient(1deg, #d72323 5%, transparent 15%);
+    }
+
+    .container_text {
+        width: 60rem;
+    }
+    .ava_container {
+        padding-left: 20px;
+    }
+    .ava {
+        width: 100%;     
+        height: 100%;
+    }
+}
+
+@media (max-width: 768px){
+    .nav_link{
+        display: none;
+    }
+    .container_text {
+        width: 60rem;
+    }
+    .ava_container {
+        padding-left: 30px;
+    }
+    .ava {
+        width: 100%;     
+        height: 100%;
+    }
+    .container_section_projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+}
+
+@media (max-width: 480px){
+    .hi1 {
+        font-size: 1rem;
+        color: #eeeeee;
+    }
+    .hi2 {
+        font-size: 3rem;
+        margin: 0;
+        padding: 0;
+        color: #eeeeee;
+        padding-bottom: 0.5rem;
+    }
+    .typewrite {
+        font-family: "Rubik Bubbles", system-ui;
+        font-weight: 100;
+        font-size: 1.5rem;
+        color:#d72323;
+    }
+    .title_header {
+        font-weight: 200;
+        font-style: normal;
+        font-size: 2.5rem;
+        color:#d72323;
+    }
+    .about-text {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    .about-text2 {
+        font-size: 1rem;
+        line-height: 1.5;
+        background-image: linear-gradient(1deg, #d72323 5%, transparent 15%);
+    }
+    .container_text {
+        width: 70rem;
+    }
+    .ava_container {
+        padding-left: 20px;
+    }
+    .ava {
+        width: 150%;     
+        height: 150%;
+    }
+    .project_block {
+        width: 200px;
+        height: 200px;
+    } 
+    .title_header_contacts {
+        font-weight: 200;
+        font-size: 2rem;
+    }
+    
+    .form-box {
+        width: 250px;
+    }
+    label {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 320px) {
+    .about-text {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    .about-text2 {
+        font-size: 1rem;
+        line-height: 1.5;
+        background-image: linear-gradient(1deg, #d72323 5%, transparent 15%);
+    }
+    .container_text {
+        width: 60rem;
+    }
+    .ava_container {
+        padding-left: 5px;
+    }
+    .ava {
+        width: 200%;     
+        height: 200%;
+    }
+    .project_block {
+        width: 150px;
+        height: 150px;
+    } 
+    .project_block:last-child {
+        margin: 5px;
+    }
+    .form-box {
+        width: 200px;
+    }
+    label {
+        font-size: 14px;
+    }
 }
